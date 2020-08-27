@@ -1,2 +1,3 @@
-# lm-xml-xsds-ejemplos
+# Lenguajes de marcas
+
 Ejemplos sobre esquemas XML.

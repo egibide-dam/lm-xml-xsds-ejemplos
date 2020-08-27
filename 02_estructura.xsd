@@ -1,0 +1,6 @@
+<xs:element name="nombre_del_elemento" type="tipo" />
+
+
+<xs:element name="nombre_del_elemento">
+...
+</xs:element>

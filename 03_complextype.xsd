@@ -1,0 +1,6 @@
+<xs:complexType name="nombre_del_tipo_complejo">
+  <xs:sequence/all/choice>
+    ... subelementos ...
+  </xs:sequence/all/choice>
+  ... atributos ...
+</xs:complexType>

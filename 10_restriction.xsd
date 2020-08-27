@@ -1,0 +1,3 @@
+<xs:restriction base="xs:string">
+  <xs:nombre_restriccion value=""/>
+</xs:restriction>

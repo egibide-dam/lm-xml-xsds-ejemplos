@@ -1,0 +1,3 @@
+<xs:simpleType name="lista_numeros">
+  <xs:list itemType="xs:integer"/>
+</xs:simpleType>

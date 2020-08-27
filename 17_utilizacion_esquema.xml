@@ -1,0 +1,6 @@
+<nodo_raiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.miempresa.com/mi_esquema.xsd">
+
+
+<nodo_raiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="mi_esquema.xsd">

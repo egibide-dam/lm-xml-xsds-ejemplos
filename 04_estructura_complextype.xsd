@@ -1,0 +1,23 @@
+<xs:element name="contacto">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="destinatario" type="xs:string" />
+      <xs:element name="remitente" type="xs:string" />
+      <xs:element name="titulo" type="xs:string" />
+      <xs:element name="contenido" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="fecha" type="xs:date"/>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="contacto" type="tipo_contacto"/>
+
+<xs:complexType name="tipo_contacto">
+<xs:sequence>
+  <xs:element name="destinatario" type="xs:string" />
+  <xs:element name="remitente" type="xs:string" />
+  <xs:element name="titulo" type="xs:string" />
+  <xs:element name="contenido" type="xs:string" />
+</xs:sequence>
+<xs:attribute name="fecha" type="xs:date"/>
+</xs:complexType>

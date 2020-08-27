@@ -1,0 +1,18 @@
+<xs:complexType name="tipo_persona">
+  <xs:sequence>
+    <xs:element name="nombre" type="xs:string"/>
+    <xs:element name="edad" type="xs:integer"/>
+  </xs:sequence>
+  <xs:attribute name="id" type="xs:integer"/>
+</xs:complexType>
+
+<xs:complexType name="tipo_contacto">
+<xs:complexContent>
+  <xs:extension base="tipo_persona">
+    <xs:sequence>
+      <xs:element name="email" type="xs:string"/>
+      <xs:element name="telefono" type="xs:string"/>
+    </xs:sequence>
+  </xs:extension>
+</xs:complexContent>
+</xs:complexType>

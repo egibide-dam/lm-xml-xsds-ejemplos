@@ -1,0 +1,13 @@
+<xs:element name="libro" type="tipo_libro"/>
+
+<xs:complexType name="tipo_libro">
+<xs:choice>
+  <xs:element name="titulo" type="xs:string" />
+  <xs:element name="autor" type="xs:string" />
+  <xs:element name="editorial" type="xs:string" />
+</xs:choice>
+</xs:complexType>
+
+<libro>
+  <titulo>El señor de los anillos</titulo>
+</libro>

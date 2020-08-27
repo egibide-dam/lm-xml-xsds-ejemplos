@@ -1,0 +1,3 @@
+<xs:simpleType name="entero_fecha">
+  <xs:union memberTypes="xs:integer xs:date"/>
+</xs:simpleType>

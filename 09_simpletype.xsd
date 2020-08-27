@@ -1,0 +1,5 @@
+<xs:simpleType name="nombre_del_tipo_simple">
+<xs:restriction>
+  ... restricciones ...
+</xs:restriction>
+</xs:simpleType>
